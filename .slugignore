@@ -1,0 +1,10 @@
+tests/
+docs/
+*.mp3
+*.mp4
+*.log
+__pycache__/
+*.pyc
+.git/
+node_modules/
+.env
