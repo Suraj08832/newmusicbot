@@ -1,20 +1,19 @@
 aiofiles
 bard
 SpeechRecognition
-aiohttp 
-asyncio 
+aiohttp
+asyncio
 deepai
 python-whois
 dnspython
 ffmpeg-python
 gitpython
-hachoir
 Faker
 pydub
 pycountry
 heroku3
 apscheduler
-motor 
+motor
 numpy
 pillow==9.5.0
 psutil
@@ -23,11 +22,7 @@ pyfiglet
 qrcode
 pytz
 future==0.18.3
-search_engine_parser
 py-tgcalls==0.9.7
-pykeyboard
-pyshorteners
-#pyrogram==2.0.106
 python-dotenv
 pyyaml==6.0.1
 requests
@@ -38,17 +33,11 @@ tgcrypto
 telegraph
 unidecode
 yt-dlp
-youtube-search
-youtube-search-python
-gtts
-git+https://github.com/AsmSafone/SafoneAPI
-lexica-api==1.5.1
-httpx==0.25.2
 gpytranslate
 openai==0.28.0
 pickledb
 python-telegram-bot==20.7
 cloudscraper
 pycryptodome
-opencv-python
-pyrogram==2.0.106
+opencv-python-headless  # swap this if you really need opencv
+pyrogram==2.0.106       # pick either this or python-telegram-bot, not both
