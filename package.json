@@ -1,0 +1,13 @@
+{
+    "name": "olynmusic",
+    "version": "1.0.0",
+    "description": "Your awesome music bot app",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "YourName",
+    "license": "MIT",
+    "dependencies": {}
+  }
+  
