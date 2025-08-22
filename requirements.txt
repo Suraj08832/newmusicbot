@@ -41,4 +41,4 @@ cloudscraper
 pycryptodome
 opencv-python-headless  # swap this if you really need opencv
 pyrogram==2.0.106       # pick either this or python-telegram-bot, not both
-SafoneAPI
+beautifulsoup4
