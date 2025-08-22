@@ -51,7 +51,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("KAISEN_UPDATES")
+                await self.one.join_chat("bots_update_all")
                 await self.one.join_chat("GHOULS_SUPPORT")
             except:
                 pass
@@ -72,7 +72,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("KAISEN_UPDATES")
+                await self.two.join_chat("bots_update_all")
                 await self.one.join_chat("GHOULS_SUPPORT")
             except:
                 pass
@@ -93,7 +93,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("KAISEN_UPDATES")
+                await self.three.join_chat("bots_update_all")
                 await self.one.join_chat("PURVI_UPDATES")
             except:
                 pass
@@ -135,7 +135,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("KAISEN_UPDATES")
+                await self.five.join_chat("bots_update_all")
                 await self.one.join_chat("GHOULS_SUPPORT")
             except:
                 pass

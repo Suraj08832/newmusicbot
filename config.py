@@ -14,9 +14,9 @@ EVAL = list(map(int, getenv("EVAL", "7716352578 7091230649").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN" , "8485839033:AAFmuYxFHO_cOy0HFRSUasXVqls-sjnjaUo")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","axcne")
+OWNER_USERNAME = getenv("OWNER_USERNAME","crush_hu_tera")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "shizukimusic_rxbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Heeriye_Robot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "shizuki")
 # ---------------------------------------------------------
@@ -38,17 +38,16 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/dev-trezlo/lucimusic",
+    "https://github.com/Suraj08832/newmusicbot ",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # -----------------------------------------
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", '30DxNexGenBotsc3befe') # youtube song api ke
+# API configuration moved to Youtube.py - using https://apikeyreal.vercel.app/api
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/axcnei")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TREZLOSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/bots_update_all")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/bots_update_all")
 # ------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
