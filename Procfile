@@ -1,1 +1,1 @@
-worker: python -m PURVIMUSIC
+bash start
