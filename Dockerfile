@@ -9,7 +9,4 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
-# Run the bot directly with Python inside the container
-ENTRYPOINT ["python3"]
-CMD ["-m", "PURVIMUSIC"]
-
+CMD bash start
